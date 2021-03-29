@@ -1,0 +1,45 @@
+:root {
+    --primary: #174DBA;
+    --white: #FFFFFF;
+    --gray: #EFF0F3; 
+    --dark: #505050;
+    --active-blue: #113786;
+}
+
+header {
+    position: fixed;
+    width : 100%;
+    z-index: 100;
+}
+
+header div.header-content {
+    background-color: var(--primary);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header div.header-content img {
+    height: 30px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    color: var(--primary);
+    background-color: var(--gray);
+}
+
+body, input, button {
+    font: 600 18px "Helvetica Neue", sans-serif;
+}
+

@@ -1,0 +1,120 @@
+ .login-form{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-form h1{
+   color: var(--primary);
+   font-size: 32px;
+   font-weight: Bold;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.login-form label{
+    font-weight: 500;
+    font-size: 16px;
+ }
+
+.login-content {
+    background: var(--white);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px var(--dark);
+}
+.login-content .email-content, .login-content .password-content{
+    flex-direction: column;
+    display: flex;
+    margin-top: 15px;
+}
+
+.login-content .email-content, .login-content .password-content label input{
+    flex-direction: column;
+    display: flex;
+}
+
+.login-content input{
+    color: var(--dark);
+    font-weight: 500;
+
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 260px;
+
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+
+    outline: none;
+
+}
+
+.login-content input::placeholder {
+    color: #9C9A9A
+}
+
+.login-content button{
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1.5px solid var(--primary);
+    width: 280px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    outline: none;
+}
+
+
+.login-content button p{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.login-content button:active{
+    background-color: var(--active-blue);
+}
+
+@media(max-width: 450px){
+    .login-content input{
+        color: var(--dark);
+        font-weight: 500;
+    
+        padding-left: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 180px;
+    
+        border-radius: 5px;
+        border: 2px solid var(--primary);
+    
+        outline: none;
+    
+    }
+
+    .login-content button{
+        background-color: var(--primary);
+        border-radius: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 1.5px solid var(--primary);
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        
+        outline: none;
+    }
+}

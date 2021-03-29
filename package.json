@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "teste-front-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hudsoncratz/teste-front-end.git",
+  "author": "<hudsoncratz@gmail.com>",
+  "license": "MIT"
+}
