@@ -1,5 +1,5 @@
-function getRequest() {
-    
+function getRequest(event) {
+    event.preventDefault();
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
     
@@ -26,3 +26,5 @@ function getRequest() {
             console.log(error)
         })
 }
+
+getRequest();

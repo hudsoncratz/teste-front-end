@@ -11,7 +11,7 @@
 </head>
 <body>
     <header></header>
-    <div id="login-form" action="" class="login-form">
+    <form onSubmit="getRequest(event);" method="post" id="login-form" action="" class="login-form">
         <div class="login-content">
             <h1>Acessar</h1>
             <div class="email-content">
@@ -22,7 +22,7 @@
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password" value="" placeholder="*******" required>
             </div>
-            <button onclick="getRequest();" type="submit">
+            <button type="submit">
                 <p>entrar</p>
             </button>
         </div>
